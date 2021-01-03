@@ -13,6 +13,6 @@ class ToOneHot:
         self.num_classes = num_classes
 
     def __call__(self, label):
-        one_hot = np.zeros((self.num_classes, ), dtype='int32')
+        one_hot = np.zeros(self.num_classes, dtype='int32')
         one_hot[label] = 1
         return one_hot
