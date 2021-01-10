@@ -17,7 +17,7 @@ from keras import backend as K
 
 from Dataset import Dataset
 from get_dataset import get_dataset
-from generator import *
+from generator import generator
 from utils import str2id, sequence_padding
 from Loss import Loss
 from ToOneHot import ToOneHot
